@@ -13,7 +13,7 @@ spec:
         kind: HelmRepository
         name: 6-demo-source-helm-bb-app
   install:
-    createNamespace: true
+    createNamespace: false
   interval: 10s
   storageNamespace: 6-demo
   targetNamespace: 6-demo
